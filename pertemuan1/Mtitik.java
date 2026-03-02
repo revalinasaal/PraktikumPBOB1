@@ -1,3 +1,5 @@
+package pertemuan1;
+
 /* Nama File : Titik.java
  * Deskripsi : berisi atribut dan method dalam class Titik public class Titik 
  * Pembuat   : Revalina Salwa
