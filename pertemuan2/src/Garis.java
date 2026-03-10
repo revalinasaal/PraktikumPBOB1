@@ -1,5 +1,3 @@
-package pertemuan2;
-
 /* Nama File : Garis.java
  * Deskripsi : berisi atribut dan method dalam class Garis
  * Pembuat   : Revalina Salwa

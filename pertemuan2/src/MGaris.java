@@ -1,5 +1,3 @@
-package pertemuan2;
-
 /* Nama File : MGaris.java
  * Deskripsi : program utama class Garis
  * Pembuat   : Revalina Salwa

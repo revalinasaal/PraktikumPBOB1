@@ -1,5 +1,3 @@
-package pertemuan2;
-
 /* Nama File : Mtitik.java
  * Deskripsi : program utama class Titik
  * Pembuat   : Revalina Salwa
