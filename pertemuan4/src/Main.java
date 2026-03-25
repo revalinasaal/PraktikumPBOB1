@@ -9,7 +9,7 @@ public class Main{
 
         //buat objek persegi
         Persegi p1 = new Persegi(5, "Merah", "Solid");
-        System.out.println("=== Info Persegi ===");
+        System.out.println("Info Persegi");
         p1.printInfo();
         System.out.println("Luas: " + p1.getLuas());
         System.out.println("Keliling: " + p1.getKeliling());
@@ -19,7 +19,7 @@ public class Main{
 
         //buat objek lingkaran
         Lingkaran l1 = new Lingkaran(10, "Biru", "Dashed");
-        System.out.println("=== Info Lingkaran ===");
+        System.out.println("Info Lingkaran");
         l1.printInfo();
         System.out.println("Luas: " + l1.getLuas());
         System.out.println("Keliling: " + l1.getKeliling());
