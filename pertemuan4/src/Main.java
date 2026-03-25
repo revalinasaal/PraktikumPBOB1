@@ -8,12 +8,9 @@ public class Main{
     public static void main(String[] args){
 
         //buat objek persegi
-        Persegi p1 = new Persegi(5, "Merah", "Solid");
-<<<<<<< HEAD
+        Persegi p1 = new Persegi(5, "Pink", "Solid");
         System.out.println("Info Persegi");
-=======
-        System.out.println("=== Info Persegi ===");
->>>>>>> 518ca69e13275c9251f8293c6904646323cb2b8e
+
         p1.printInfo();
         System.out.println("Luas: " + p1.getLuas());
         System.out.println("Keliling: " + p1.getKeliling());
@@ -22,12 +19,9 @@ public class Main{
         System.out.println();
 
         //buat objek lingkaran
-        Lingkaran l1 = new Lingkaran(10, "Biru", "Dashed");
-<<<<<<< HEAD
+        Lingkaran l1 = new Lingkaran(10, "Ungu", "Dashed");
         System.out.println("Info Lingkaran");
-=======
-        System.out.println("=== Info Lingkaran ===");
->>>>>>> 518ca69e13275c9251f8293c6904646323cb2b8e
+
         l1.printInfo();
         System.out.println("Luas: " + l1.getLuas());
         System.out.println("Keliling: " + l1.getKeliling());
@@ -35,7 +29,6 @@ public class Main{
 
         System.out.println();
 
-        //print counter total objek bangun datar
         BangunDatar.printCounterBangunDatar();
     }
 }
