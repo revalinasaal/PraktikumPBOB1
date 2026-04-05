@@ -30,3 +30,10 @@ public class Asersi2{
         System.out.println("keliling lingkaran = " + kelilingLingkaran);
     }
 }
+
+/* JAWAB PERTANYAAN */
+/* Secara konsep, ada yang kurang tepat pada program Asersi2. Jelaskan!*/
+/*Yang kurang tepat adalah penggunaan asersi di sini sebenernya kurang sesuai. Karena asersi itu seharusnya dipakai buat ngecek kondisi yang 
+  "seharusnya tidak mungkin terjadi" bukan untuk validasi input dari user. Pada program Asersi2, jariJari = 0 itu ditulis langsung seperti itu saja di dalam program, 
+   kemudian di bawahnya di-assert jariJari > 0. Nah ini kontradiktif karena programmer sendiri yang nulis nilainya 0, terus di-assert harus lebih dari 0. 
+   Harusnya kalau mau validasi input seperti ini, pakai eksepsi (IllegalArgumentException misalnya), bukan asersi. */
