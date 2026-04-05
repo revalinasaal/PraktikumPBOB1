@@ -27,3 +27,13 @@ public class AngkaSial {
         }
     }
 }
+
+/* JAWAB PERTANYAAN */
+/* Ketika eksepsi terjadi, apakah baris 12 pada AngkaSial.java di atas dieksekusi? 
+   Apakah baris 21 pada AngkaSial.java di atas dieksekusi? Jelaskan pada lembar praktikum anda */
+/* Jawabannya tidak, karena baris 12 itu berisi javaSystem.out.println(angka + " bukan angka sial");
+   sehingga waktu cobaAngka(13) dipanggil, program masuk ke if(angka==13) lalu langsung throw eksepsi kemudian program langsung 
+   keluar dari method tanpa sempat ke baris 12. Jadi baris 12 dilewati begitu saja.
+  "Apakah baris 21 dieksekusi?" Jawabannya iya, karena, baris 21 itu adalah blok catch dimana, java} catch(AngkaSialException ase) {
+   Karena eksepsi memang terjadi (waktu masukkan angka 13), maka blok catch ini pasti dieksekusi, justru di sinilah eksepsi itu 
+  "ditangkap" dan diproses. Program lalu mencetak pesan dari ase.getMessage() dan "hati-hati memasukkan angka!!!" */
