@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Asersi1",
+            "request": "launch",
+            "mainClass": "Asersi1",
+            "classPaths": ["${workspaceFolder}/pertemuan6/bin"]
+        },
+        {
+            "type": "java",
+            "name": "Asersi2",
+            "request": "launch",
+            "mainClass": "Asersi2",
+            "classPaths": ["${workspaceFolder}/pertemuan6/bin"]
+        },
+        {
+            "type": "java",
+            "name": "ExceptionOnArray",
+            "request": "launch",
+            "mainClass": "ExceptionOnArray",
+            "classPaths": ["${workspaceFolder}/pertemuan6/bin"]
+        },
+        {
+            "type": "java",
+            "name": "AngkaSial",
+            "request": "launch",
+            "mainClass": "AngkaSial",
+            "classPaths": ["${workspaceFolder}/pertemuan6/bin"]
+        }
+    ]
+}

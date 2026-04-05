@@ -1,5 +1,5 @@
 /* Nama File  : ExceptionOnArray.java
- * Deskripsi  : Program penggunaan eksepsi menggunakan class library 
+ * Deskripsi  : Program penggunaan eksepsi menggunakan class library Java
  * Pembuat    : Revalina Salwa
  * NIM        : 24060124140155
  * Tanggal    : 26-03-2026
